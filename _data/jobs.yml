@@ -1,0 +1,99 @@
+# Newest first. To add a job, copy a block to the top.
+# Optional keys: summary, bullets, stack. "open: true" expands the entry by default.
+
+- dates: Dec 2025 — now
+  role: Head of IT
+  company: InSperia
+  open: true
+  summary: >-
+    Three products: an LMS (web, Android, iOS), a sales website and an AI platform
+    for customer operations. Two teams; responsible for architecture, hiring and budget.
+  bullets:
+    - "Launched the LMS from scratch: first courses in June 2026, 20+ courses and 10,000+ students by September."
+    - "Code judge that runs student submissions in Docker + gVisor sandboxes: Python, C++, Java, C#, Pascal."
+    - "About ten integrations (payments, video, CRM, messengers, education platforms); TOTP and WebAuthn."
+    - "Own and develop Prodaishka, a RAG platform for sales and support agents with CRM and messenger integrations (amoCRM, Bitrix24, Telegram, VK)."
+    - "Replaced the WordPress sales site with React + Python and added the Prodaishka sales agent widget: conversion doubled."
+    - "Essay grading for the humanities part of the Russian state exam (EGE) with fine-tuned ML models, from the first prototype to a production pipeline: cost per check down 70%."
+    - "MCP servers that give employees access to the company's internal services from AI assistants."
+    - "Customer profiles and a churn model for the support team: used by 80% of support staff; sales up 20% since rollout."
+  stack: Python 3.13 · Litestar · SQLAlchemy 2 · PostgreSQL 18 · Redis · NATS + FastStream · MinIO · OpenAI · RAG · MCP · NestJS · React 19
+
+- dates: Jun 2025 — Aug 2026
+  role: Tech Lead
+  company: Endrex
+  summary: >-
+    Real-time services of a trading platform. Designed the architecture of all platform
+    services (BFF, exchange gateway, wallet management, copy trading, analytics); led a team of five.
+  bullets:
+    - "Moved the exchange gateway and wallet-management service from Python to Go: zero-downtime releases, idempotent processing, up to 1,000 wallets per instance."
+    - "Led the Bybit integration for copy trading."
+    - "Streaming over NATS and WebSocket; profiling of critical paths; monitoring and structured logging."
+  stack: Python · Go · Litestar · NATS · WebSocket · PostgreSQL · Docker
+
+- dates: Nov 2024 — Jun 2025
+  role: Senior Backend Engineer
+  company: Endrex
+  bullets:
+    - "Designed and introduced a new service architecture: better scalability, maintainability and isolation."
+    - "Built high-load real-time services with Litestar, WebSocket and NATS."
+    - "Raised automated test coverage of each service to 75%+ and set shared quality standards."
+  stack: Python · Go · Litestar · NATS · WebSocket · PostgreSQL · Docker
+
+- dates: Nov 2024 — Oct 2025
+  role: Senior Software Engineer
+  company: Kaspersky
+  summary: Kaspersky Anti Targeted Attack Platform (KATA), Python/Go microservices.
+  bullets:
+    - "Built an incremental build system: affected packages and Docker images are derived from git changes and only those are built and tested, distributed over Docker Swarm. PR builds went from about 60 minutes to 15."
+    - "Rewrote several services from Python to Go for the move to the web platform."
+    - "Introduced a unified code style, formatting and linting setup."
+  stack: Python · Go · protobuf · PostgreSQL · Redis · NATS · Kafka · Docker Swarm
+
+- dates: May 2024 — Oct 2024
+  role: Technical Lead
+  company: SEZ Alabuga
+  summary: "Technical lead for three teams, 21 people: backend, frontend, QA, project managers, analysts."
+  bullets:
+    - "Owned the architecture of internal product services; hired the teams and set up the workflow with the business."
+    - "Delivered four web products: two analytics platforms, a merchandise store and an employee rewards system."
+    - "Release cycle went from six weeks to two with Scrum and automated delivery."
+    - "Set up GitLab CI/CD, Ansible deployments and Prometheus/Grafana monitoring; mentored two juniors to middle level."
+  stack: Python · GitLab CI/CD · Ansible · Docker · Linux · Prometheus · Grafana
+
+- dates: Oct 2023 — May 2024
+  role: Software Engineer
+  company: Yandex
+  bullets:
+    - "High-load REST APIs in Python/aiohttp handling 500+ RPS."
+    - "Async RabbitMQ / aio-pika event processing at 3,000+ events per second."
+    - "PostgreSQL optimization, scheduled exports, load tests, monitoring and alerting; maintained legacy Go services."
+  stack: Go · Python · aiohttp · aio-pika · PostgreSQL · RabbitMQ · Nginx
+
+- dates: Mar 2023 — Oct 2023
+  role: Lead Python Developer
+  company: MTS
+  bullets:
+    - "Scalable backend services in Python and FastAPI."
+    - "ETL pipelines for PostgreSQL, MySQL, OracleDB and HDFS with PySpark and Onetl."
+  stack: Python · FastAPI · Celery · SQLAlchemy · PySpark · PostgreSQL · HDFS
+
+- dates: Feb 2022 — Mar 2023
+  role: Python Developer
+  company: VK
+  bullets:
+    - "Backend services for Mail.ru media products in Python and Django."
+    - "Refactored legacy applications and migrated services to Kubernetes; mentored juniors."
+  stack: Python · Django · MySQL · Redis · Celery · Kubernetes
+
+- dates: Aug 2021 — Feb 2022
+  role: Software Engineer
+  company: KPMG
+  summary: Analytics, forecasting and data-collection services; PostgreSQL and MongoDB schemas, CI/CD and automated tests.
+  stack: Python · Django · FastAPI · NumPy · PostgreSQL · MongoDB
+
+- dates: Aug 2020 — Feb 2022
+  role: Full-stack Python Developer
+  company: InSperia
+  summary: Built an LMS that automated teacher and student workflows, with GetCourse and Stepik integrations, learning analytics and dashboards.
+  stack: Python · Flask · Django · PostgreSQL · Docker · Kubernetes

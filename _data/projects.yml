@@ -1,0 +1,64 @@
+# group: projects | ai | experiments. tech: 3-5 items shown under the description.
+
+- name: asyncly
+  url: https://github.com/andy-takker/asyncly
+  group: projects
+  lang: python
+  desc: Typed aiohttp HTTP clients with pytest fixtures for realistic mock servers.
+  tech: [aiohttp, asyncio, pytest, PyPI]
+
+- name: example-web-service
+  url: https://github.com/andy-takker/example-web-service
+  group: projects
+  lang: python
+  desc: Async web service on Litestar + FastStream/NATS with clean layers, DI and import-linter.
+  tech: [Litestar, FastStream, NATS, SQLAlchemy, dishka]
+
+- name: example-litestar-service
+  url: https://github.com/andy-takker/example-litestar-service
+  group: projects
+  lang: python
+  desc: "Production-ready Litestar template: dishka DI, JWT + RBAC, NATS, observability."
+  tech: [Litestar, PostgreSQL, Redis, NATS, Prometheus]
+
+- name: herdr-claude-accounts
+  url: https://github.com/andy-takker/herdr-claude-accounts
+  group: ai
+  lang: python
+  desc: Run Claude Code agents across several accounts with shared conversation history, settings and usage tracking.
+  tech: [Python, curses TUI, JavaScript, macOS Keychain]
+
+- name: opencode-plugin-subagents-sidebar
+  url: https://github.com/andy-takker/opencode-plugin-subagents-sidebar
+  group: ai
+  lang: typescript
+  desc: "OpenCode plugin for multi-agent coding: live subagent status and session navigation in a terminal sidebar."
+  tech: [TypeScript, SolidJS, OpenTUI, Bun]
+
+- name: pg-optimization
+  url: https://github.com/andy-takker/pg-optimization
+  group: experiments
+  lang: research
+  desc: "PostgreSQL 18 tuning: OS and DB settings, pooling, WAL, autovacuum, query plans, with measurements."
+  tech: [PostgreSQL 18, pgbench, replication, Linux]
+
+- name: http-deadline
+  url: https://github.com/andy-takker/http-deadline
+  group: experiments
+  lang: research
+  desc: Reproducible experiments on HTTP timeouts and deadlines in asyncio.
+  tech: [asyncio, aiohttp, Prometheus, matplotlib]
+
+- name: slow-tests-benchmark
+  url: https://github.com/andy-takker/slow-tests-benchmark
+  group: experiments
+  lang: research
+  desc: Benchmarks for speeding up pytest integration tests.
+  tech: [pytest, PostgreSQL, Litestar, xdist]
+
+- name: catfact-demo-service
+  url: https://github.com/andy-takker/catfact-demo-service
+  group: experiments
+  lang: research
+  desc: Five ways to test HTTP integrations in Python, side by side.
+  tech: [FastAPI, aiohttp, vcrpy, aioresponses, asyncly]

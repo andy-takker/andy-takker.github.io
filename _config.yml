@@ -1,0 +1,3 @@
+# GitHub Pages builds this site with Jekyll. Content lives in _data/*.yml.
+title: Sergey Natalenko
+exclude: [README.md, resume-src]

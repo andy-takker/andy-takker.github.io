@@ -1,0 +1,35 @@
+# Newest first. Titles in English; the articles themselves are in Russian on Habr.
+
+- title: "Refresh succeeded, the session broke: token rotation explained"
+  url: https://habr.com/ru/articles/1096460/
+  date: Oct 2026
+- title: Can ty or Pyrefly replace mypy in 2026?
+  url: https://habr.com/ru/articles/1095028/
+  date: Oct 2026
+- title: "Why an HTTP call misses its timeout: queues, retries and asyncio"
+  url: https://habr.com/ru/articles/1094050/
+  date: Oct 2026
+- title: "import-linter: let a machine guard your layer boundaries"
+  url: https://habr.com/ru/articles/1053430/
+  date: Jun 2026
+- title: Faster tests with plain xdist. I measured it. Part 2
+  url: https://habr.com/ru/articles/1047134/
+  date: Jun 2026
+- title: Your tests are slow, but not because of the database. Part 1
+  url: https://habr.com/ru/articles/1045923/
+  date: Jun 2026
+- title: Why your mocks don't catch real bugs
+  url: https://habr.com/ru/articles/1034864/
+  date: May 2026
+- title: "Telegram login, the new way: the OIDC flow in Python"
+  url: https://habr.com/ru/articles/1033632/
+  date: May 2026
+- title: How we made CI twice as fast with Docker Swarm
+  url: https://habr.com/ru/articles/964306/
+  date: Nov 2025
+- title: "Pitfalls of async Python frameworks. Part 1: FastAPI"
+  url: https://habr.com/ru/articles/942942/
+  date: Sep 2025
+- title: TDD and the feedback loop
+  url: https://habr.com/ru/articles/942356/
+  date: Aug 2025
