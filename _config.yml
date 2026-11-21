@@ -1,3 +1,6 @@
 # GitHub Pages builds this site with Jekyll. Content lives in _data/*.yml.
 title: Sergey Natalenko
-exclude: [README.md, resume-src]
+url: https://andy-takker.github.io
+plugins:
+  - jekyll-sitemap
+exclude: [README.md, LICENSE, resume-src]
