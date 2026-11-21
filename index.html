@@ -88,13 +88,13 @@
   </nav>
   <div class="tools">
     <button id="theme" type="button" aria-label="Toggle theme">◐</button>
-    <button id="shell-open" type="button" title="Open shell ( ` )">&gt;_</button>
+    <button id="shell-open" type="button" title="Open shell ( ` )" aria-label="Open shell">&gt;_</button>
   </div>
 </header>
 
 <main>
 <section id="about">
-  <h1><span class="mk">#</span> Sergey Natalenko<span class="cur" aria-hidden="true"></span></h1>
+  <h1>Sergey Natalenko<span class="cur" aria-hidden="true"></span></h1>
   <p class="sub">Hands-on Tech Lead · Backend &amp; AI products · Python &amp; Go · Moscow, remote</p>
   <p>I build backend systems that behave predictably under load and during failures: event-driven services, third-party integrations, performance and reliability. I stay in the code (20–30% of my time) and own the result from architecture to production troubleshooting. I prefer decisions that can be checked: a benchmark or a failure test rather than an opinion.</p>
   <p>My second line is AI products in production: RAG sales and support agents, MCP servers that connect internal services to AI assistants, and fine-tuned models that grade exam essays, from the first prototype to a production pipeline.</p>
@@ -119,7 +119,7 @@
 </section>
 
 <section id="impact">
-  <h2><span class="mk">##</span> Impact</h2>
+  <h2>Impact</h2>
   <div class="nums">
     <div><b>60 → 15 min</b><span>PR builds at Kaspersky, with an incremental build system driven by git diffs</span></div>
     <div><b>6 → 2 weeks</b><span>release cycle across three teams (21 people) at Alabuga</span></div>
@@ -131,7 +131,7 @@
 </section>
 
 <section id="experience">
-  <h2><span class="mk">##</span> Experience</h2>
+  <h2>Experience</h2>
 {% for job in site.data.jobs %}
   <details class="job"{% if job.open %} open{% endif %}>
     <summary><span class="d">{{ job.dates }}</span><span class="r"><b>{{ job.role | escape }}</b>, {{ job.company | escape }}</span></summary>
@@ -155,19 +155,19 @@
 </section>
 
 <section id="projects">
-  <h2><span class="mk">##</span> Projects</h2>
+  <h2>Projects</h2>
   <ul class="rows">
   {%- for p in site.data.projects %}{% if p.group == "projects" %}
     <li><a href="{{ p.url }}">{{ p.name }}</a><span class="desc">{{ p.desc | escape }}</span><span class="meta">{{ p.lang }}</span>{% if p.tech %}<span class="tech">{{ p.tech | join: " · " | escape }}</span>{% endif %}</li>
   {%- endif %}{% endfor %}
   </ul>
-  <h3><span class="mk">###</span> AI tooling</h3>
+  <h3>AI tooling</h3>
   <ul class="rows">
   {%- for p in site.data.projects %}{% if p.group == "ai" %}
     <li><a href="{{ p.url }}">{{ p.name }}</a><span class="desc">{{ p.desc | escape }}</span><span class="meta">{{ p.lang }}</span>{% if p.tech %}<span class="tech">{{ p.tech | join: " · " | escape }}</span>{% endif %}</li>
   {%- endif %}{% endfor %}
   </ul>
-  <h3><span class="mk">###</span> Experiments</h3>
+  <h3>Experiments</h3>
   <ul class="rows">
   {%- for p in site.data.projects %}{% if p.group == "experiments" %}
     <li><a href="{{ p.url }}">{{ p.name }}</a><span class="desc">{{ p.desc | escape }}</span><span class="meta">{{ p.lang }}</span>{% if p.tech %}<span class="tech">{{ p.tech | join: " · " | escape }}</span>{% endif %}</li>
@@ -176,7 +176,7 @@
 </section>
 
 <section id="writing">
-  <h2><span class="mk">##</span> Writing</h2>
+  <h2>Writing</h2>
   <p class="note">Articles on Habr, in Russian.</p>
   <ul class="rows">
   {%- for a in site.data.articles %}
@@ -187,7 +187,7 @@
 </section>
 
 <section id="services">
-  <h2><span class="mk">##</span> Services</h2>
+  <h2>Services</h2>
   <p>I take on a small number of projects alongside my main role.</p>
   <dl class="svc">
     <dt>AI integrations &amp; agents</dt><dd>Connecting your databases, support desks, messengers and APIs to LLMs and agents; MCP servers for internal tools; autonomous agents, including on local models; security review of AI solutions.</dd>
@@ -199,7 +199,7 @@
 </section>
 
 <section id="stack">
-  <h2><span class="mk">##</span> Stack</h2>
+  <h2>Stack</h2>
   <dl class="stack-list">
     <dt>Languages</dt><dd>Python, Go</dd>
     <dt>Data</dt><dd>PostgreSQL, Redis, MinIO</dd>
@@ -211,7 +211,7 @@
 </section>
 
 <section id="education">
-  <h2><span class="mk">##</span> Education</h2>
+  <h2>Education</h2>
   <ul class="rows">
     <li><span class="t">PhD, Mathematical and instrumental methods in economics — Synergy University</span><span class="meta">2024 — 2027</span></li>
     <li><span class="t">MTech, Computer Programming — ITMO University</span><span class="meta">2021 — 2023</span></li>
@@ -220,7 +220,7 @@
 </section>
 
 <section id="contact">
-  <h2><span class="mk">##</span> Contact</h2>
+  <h2>Contact</h2>
   <div class="contact-list">
     <a href="https://t.me/natalenko_sergey"><svg class="ic" aria-hidden="true"><use href="#i-tg"/></svg><span class="n">Telegram</span><span class="h">@natalenko_sergey</span><svg class="ic go" aria-hidden="true"><use href="#i-arr"/></svg></a>
     <a href="mailto:sergey.natalenko@mail.ru"><svg class="ic" aria-hidden="true"><use href="#i-mail"/></svg><span class="n">Email</span><span class="h">sergey.natalenko@mail.ru</span><svg class="ic go" aria-hidden="true"><use href="#i-arr"/></svg></a>
